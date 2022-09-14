@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="RUy-fB-5uN" customClass="ProductDetailTitleCell" customModule="feeria" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="104"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RUy-fB-5uN" id="dLd-gj-ke9">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="104"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKW-Qk-7Vf">
+                        <rect key="frame" x="40" y="9" width="334" height="41.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Bvp-tb-2lh">
+                        <rect key="frame" x="40.5" y="54.5" width="333" height="39.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="39.5" translatesAutoresizingMaskIntoConstraints="NO" id="4su-rh-dSO" customClass="SwiftyStarRatingView" customModule="feeria" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="39.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hat_small" translatesAutoresizingMaskIntoConstraints="NO" id="y7d-PC-oFJ">
+                                <rect key="frame" x="255" y="0.0" width="21.5" height="39.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGI-gG-ueZ">
+                                <rect key="frame" x="291.5" y="0.0" width="41.5" height="39.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Bvp-tb-2lh" firstAttribute="top" secondItem="aKW-Qk-7Vf" secondAttribute="bottom" constant="4" id="64Y-y9-yZf"/>
+                    <constraint firstAttribute="trailing" secondItem="aKW-Qk-7Vf" secondAttribute="trailing" constant="40" id="9a1-5y-Uae"/>
+                    <constraint firstItem="aKW-Qk-7Vf" firstAttribute="top" secondItem="dLd-gj-ke9" secondAttribute="top" constant="9" id="Eo0-ok-gcV"/>
+                    <constraint firstAttribute="bottom" secondItem="Bvp-tb-2lh" secondAttribute="bottom" constant="10" id="LIA-bN-Vcc"/>
+                    <constraint firstItem="Bvp-tb-2lh" firstAttribute="centerX" secondItem="dLd-gj-ke9" secondAttribute="centerX" id="NFt-xe-swN"/>
+                    <constraint firstItem="aKW-Qk-7Vf" firstAttribute="leading" secondItem="dLd-gj-ke9" secondAttribute="leading" constant="40" id="xX0-8x-NcH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ratingView" destination="4su-rh-dSO" id="Aqu-kU-PLu"/>
+                <outlet property="titleLabel" destination="aKW-Qk-7Vf" id="ypB-CK-xIN"/>
+                <outlet property="vendorCodeLabel" destination="jGI-gG-ueZ" id="T7o-Hp-1N4"/>
+            </connections>
+            <point key="canvasLocation" x="53.623188405797109" y="114.50892857142857"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="4su-rh-dSO">
+            <size key="intrinsicContentSize" width="240" height="39.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="hat_small" width="21.5" height="21"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

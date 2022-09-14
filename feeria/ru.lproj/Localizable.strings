@@ -1,0 +1,87 @@
+/* 
+  Localizable.strings
+  feeria
+
+  Created by ios1 on 3.08.22.
+  
+*/
+
+// Common
+
+"more" = "Подробнее";
+"showMore" = "Показать ещё";
+"description" = "Описание";
+"attention" = "Внимание";
+
+// TabBar
+
+"tabBarShopItem" = "Магазин";
+"tabBarProfileItem" = "Профиль";
+"tabBarFavoritesItem" = "Избранное";
+"tabBarCartItem" = "Корзина";
+"tabBarSupportItem" = "Поддержка";
+
+// Shop VC
+
+"catalogCategoriesSection" = "Каталог";
+"popularProductsSection" = "Популярные товары";
+
+// ProductCell
+
+"chargesCount" = "зарядов";
+"inchesCount" = "дюйма";
+"timeCount" = "время";
+
+// AboutFooterView
+
+"aboutYourCity" = "Ваш город:";
+"aboutPaymentDescription" = "Вы можете оплатить покупки наличными при получении или онлайн";
+"aboutAvailablePayments" = "Способы оплаты";
+"aboutCreds" = "© Feeriya.ru, 1997-%@";
+
+// SearchProductsResultVC
+
+"recentSearchesSection" = "Недавние поиски";
+"emptySearchResult" = "Ничего не найдено";
+
+// ProductDetail
+
+"productDetailVendorCodeShort" = "арт.";
+"productDetailToCart" = "В корзину";
+"productDetailBuyInClick" = "Купить в один клик";
+"productDetailDiscount" = "<span style=\"font-family: Rubik-Regular; font-size: 12\">Ваша <u>скидка</u> %@</span>";
+"productDetailStock" = "<span style=\"font-family: Rubik-Regular; font-size: 11\">В наличии <font color=\"#80166F\">%@</font></span>";
+
+"productDetailDeliveryRegion" = "<span style=\"font-family: Rubik-Regular; font-size: 14\"><b>Доставим по %@</b>%@:</span>";
+"productDetailTodayDeliveryPrice" = "<span style=\"font-family: Rubik-Regular; font-size: 13\">Сегодня <font color=\"#666666\">за</font> <span style=\"color: #6C0068; background: #F2C94C;\">%@</span></span>";
+"productDetailTomorrowDeliveryPrice" = "<span style=\"font-family: Rubik-Regular; font-size: 14\">Завтра <span style=\"color: #FFFFFF; background: #019A4A;\">%@</span></span>";
+
+"productDetailWillFireForYou" = "Запустим для вас фейерверк";
+"productDetailAvailablePayments" = "Оплата:";
+"productDetailIfFail" = "<span style=\"font-family: Rubik-Regular; color: #666666; font-size: 14\"><font color=\"#6C0068\">“Везунчикам”</font>: если изделие отработало не верно - вернем деньги</span>";
+
+"productDetailPresentsTitle" = "<span style=\"font-family: Roboto-Light; color: #FFFFFF; font-size: 20\">Ваш <b>подарок</b> к заказу</span>";
+
+"productDetailReviews" = "Отзывы";
+"productDetailHowToLaunch" = "Как запускать";
+"productDetailProductDesign" = "Конструкция изделия";
+
+"productDetailReviewText" = "<span style=\"font-family: Rubik-Regular; color: #828282; font-size: 14\">%@, %@: <font color=\"#488E6C\">%@</font></span>";
+
+"productDetailAddReview" = "Добавить отзыв";
+
+"productDetailPostOrderTitle" = "Что после оформления заказа?";
+"productDetailPostOrderCallbackInfo" = "<span style=\"font-family: Roboto-Regular; font-size: 16\">Мы примем заказ и <b>перезвоним</b> в течение 10 минут</span>";
+"productDetailPostOrderPackOrderInfo" = "<span style=\"font-family: Roboto-Regular; font-size: 16\">Аккуратно <b>сооберем</b> ваш заказ</span>";
+"productDetailPostOrderCourierInfo" = "<span style=\"font-family: Roboto-Regular; font-size: 16\">Курьер <b>доставит</b> и <b>расскажет</b> о правилах запуска</span>";
+"productDetailPostOrderLeaveReviewInfo" = "<span style=\"font-family: Roboto-Regular; font-size: 16\"><b>Оставляете отзыв</b> о нашей работе и/или о том, как вам понравился фейерверк</span>";
+
+"productDetailManufacturerTitle" = "Информация о производителе:";
+"productDetailManufacturerFounded" = "Основан:";
+"productDetailManufacturerFoundedValue" = "<span style=\"font-family: Roboto-Regular; color: #828282; font-size: 16\">в <b>%@</b> году</span>";
+"productDetailManufacturerSpecialization" = "Специализация:";
+"productDetailManufacturerNumberOfProducts" = "<span style=\"font-family: Roboto-Regular; color: #6C0068; font-size: 16\">Всего изделий бренда <font color=\"#828282\">на Феерия.ру:</font></span>";
+"productDetailManufacturerInStock" = "Ассортимент изделий в наличии:";
+"productDetailManufacturerRating" = "Средний рейтинг изделий:";
+
+"productDetailImroveApp" = "<div style=\"width: 100%; text-align: center;\"><span style=\"font-family: Roboto-Light; color: #4F4F4F; font-size: 22\"><font color=\"#6C0068\">Подскажите</font>, как мы можем улучшить наше приложение?</span></div>";
